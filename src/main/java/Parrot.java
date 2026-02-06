@@ -8,4 +8,8 @@ public class Parrot extends Bird {
     public String toString() {
         return "I'm a parrot";
     }
+
+    public int getValue(){
+        return 20;
+    }
 }
