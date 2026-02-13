@@ -1,9 +1,9 @@
 public class Circus {
-    private static Animal[] animals = {
+    private static final Animal[] animals = {
             new Duck(),
             new Parrot()
     };
-    private static Equipment[] equipments = {
+    private static final Equipment[] equipments = {
             new Ladder(50),
             new Cannon(5),
             new Cannon(100)
